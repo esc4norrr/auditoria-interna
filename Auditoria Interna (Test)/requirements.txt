@@ -1,5 +1,0 @@
-pandas==2.0.2
-PyQt5==5.15.9
-PyQt5_sip==12.12.1
-snowflake_connector_python==2.8.3
-snowflake_sqlalchemy==1.4.7
