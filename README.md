@@ -15,3 +15,6 @@ To use the application,
 ----------------------------
 
 Happy auditing D:
+
+![Auditoria Interna GUI](https://github.com/esc4norrr/auditoria-interna/blob/main/Auditoria%20Interna.png)
+![Auditoria Interna Success](https://github.com/esc4norrr/auditoria-interna/blob/main/Successful%20Audit%20Log.png)
