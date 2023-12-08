@@ -1,7 +1,7 @@
 # auditoria_interna
 A simple PyQt5 UI to make everyday easier at GBS.
 
-Auditoria Interna v1.5
+Auditoria Interna v1.06
 
 ----------------------------
 
