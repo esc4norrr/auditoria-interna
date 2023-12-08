@@ -1,4 +1,4 @@
-# auditoria_interna
+# auditoria-interna
 A simple PyQt5 UI to make everyday easier at GBS.
 
 Auditoria Interna v1.06
@@ -16,5 +16,7 @@ To use the application,
 
 Happy auditing D:
 
+# auditoria-interna GUI
 ![Auditoria Interna GUI](https://github.com/esc4norrr/auditoria-interna/blob/main/Auditoria%20Interna.png)
+# audit logs
 ![Auditoria Interna Success](https://github.com/esc4norrr/auditoria-interna/blob/main/Successful%20Audit%20Log.png)
