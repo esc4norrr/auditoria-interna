@@ -96,11 +96,19 @@
                 "DW_AUDT.FINAL_CONTRACT_TCV_VS_OPP_TCV": "Contract TCV vs Opportunity TCV"
             }
         },
+        
         {
-            "Audit Name": "Logic - Audit - Opportunity in Status 01- 08",
+            "Audit Name": "Logic - Audit - Opportunity in Status 01- 08 (01-03)",
             "Excel Name without Ext": "LogicAuditOpportunityinStatus0108Results",
             "Table Sheet Name Mapping": {
-                "DW_AUDT.FINAL_OPPO_STATUS_01_08": ""
+                "DW_AUDT.FINAL_OPPO_STATUS_13_01_08": ""
+            }
+        },
+        {
+            "Audit Name": "Logic - Audit - Opportunity in Status 01- 08 (04-08)",
+            "Excel Name without Ext": "LogicAuditOpportunityinStatus0108Results",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_OPPO_STATUS_48_01_08": ""
             }
         },
         {
@@ -111,12 +119,27 @@
             }
         },
         {
+            "Audit Name": "Logic - Audit - CBR is Blank",
+            "Excel Name without Ext": "LogicAuditResourceAllocationCBRisBlankResults",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_RES_ALLOC_CBR_BLANK": ""
+            }
+        },
+        {
             "Audit Name": "Logic - Audit - Opportunities Pending PD",
             "Excel Name without Ext": "LogicAuditOpportunitiesPendingPDResults",
             "Table Sheet Name Mapping": {
                 "DW_AUDT.FINAL_OPPO_PENDING_PD": ""
             }
         },
+  	    {
+            "Audit Name": "Logic - Audit - ProjectsStartedAtRiskContractsNotFullyExecutedResults",
+            "Excel Name without Ext": "LogicAuditProjectsStartedAtRiskContractsNotFullyExecutedResults",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_PROJ_STARTED_AT_RISK": ""
+               
+            }
+	    },
         {
             "Audit Name": "Logic - Audit - Client Projects with Opportunity [Status 04 - 08]",
             "Excel Name without Ext": "LogicAuditClientProjectswithOpportunityStatus0408Results",
@@ -129,6 +152,24 @@
             "Excel Name without Ext": "LogicAuditClientProjectswithOpportunityStatus0910Results",
             "Table Sheet Name Mapping": {
                 "DW_AUDT.FINAL_PROJ_OPPO_STATUS_09_10": ""
+            }
+        },
+        {
+            "Audit Name": "Logic - Audit - Timesheet Deviations Detail",
+            "Excel Name without Ext": "LISAuditTimesheetNotSubmittedPendingApprovalRejectionwithTimeentryApprovalStatusResults",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_TIMESHEET_APPROVAL_STATUS": "Timsht App Pivot",
+                "DW_AUDT.FINAL_TIME_ENTRY_APPROVAL_STATUS":"TimEnt App Pivot",
+                "DW_AUDT.FINAL_DEVIATIONS_SUMMARY_TIMESHEET_APPROVAL_STATUS":"Deviations Summary Timesheet",
+                "DW_AUDT.FINAL_DEVIATIONS_SUMMARY_TIMEENTRY_APPROVAL_STATUS":"Deviations Summary Timeentry"
+            }
+        },
+        {
+            "Audit Name": "Logic - Audit - Timesheet Prior Hire Date and Post separation date",
+            "Excel Name without Ext": "LISAuditTimesheetNotSubmittedPendingApprovalRejectionwithTimeentryApprovalStatusResults",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_TIMESHEET_PRIOR_HIRE_DATE":"Hire Pivot",
+                "DW_AUDT.FINAL_TIMESHEET_POST_SEPARATION_DATE":"Sep Pivot"
             }
         },
         {
@@ -241,44 +282,53 @@
             }
         },
         {
-            "Audit Name": "LIS || Charges Forecast - Fixed Price, Recurring",
+            "Audit Name": "LIS - Charges Forecast - Fixed Price, Recurring",
             "Excel Name without Ext": "Audit - Revenue Schedule vs Charges - Fixed Price Recurring projects",
             "Table Sheet Name Mapping": {
-                "DW_AUDT.FINAL_REV_VS_CHGS_FIXEDPRICE_RECURRING": ""
+                "DW_AUDT.FINAL_REV_VS_CHGS_FIXEDPRICE_RECURRING": "Revenue vs Charges",
+		"DW_AUDT.FINAL_PROJ_IDS_09_10_NOT_IN_REV_FPR": "Proj IDs with NO RS"
             }
         },
         {
-            "Audit Name": "LIS || Charges Forecast - Time And Material",
+            "Audit Name": "LIS - Charges Forecast - Time And Material",
             "Excel Name without Ext": "Audit - Revenue Schedule vs Charges - Time & Material projects",
             "Table Sheet Name Mapping": {
                 "DW_AUDT.FINAL_REV_VS_CHGS_TANDM": ""
             }
         },
         {
-            "Audit Name": "LIS || Charges Forecast - Stage 04 - 08",
+            "Audit Name": "LIS - Charges Forecast - Stage 04 - 08",
             "Excel Name without Ext": "Audit - Revenue Schedule vs Charges - 04 - 08",
             "Table Sheet Name Mapping": {
-                "DW_AUDT.FINAL_REV_VS_CHGS_04_08": "Revenue vs Charges 04-08",
-                "DW_AUDT.FINAL_PROJ_IDS_04_08_NOT_IN_REV": "Proj IDs for 04-08 not in Rev"
+                "DW_AUDT.FINAL_REV_VS_CHGS_04_08": "Revenue vs Charges",
+                "DW_AUDT.FINAL_PROJ_IDS_04_08_NOT_IN_REV": "Proj IDs With NO RS"
             }
         },
         {
-            "Audit Name": "LIS || Charges Forecast - Fixed Bid, Milestone",
-            "Excel Name without Ext": "Audit - Revenue Schedule vs Charges - Fixed Bid Milestone projects",
+            "Audit Name": "Audit - Logic - GBS - DWH - Revenue Schedule Record - Detailed",
+            "Excel Name without Ext": "GBSDWHRevenueScheduleRecordDetailedResults",
             "Table Sheet Name Mapping": {
-                "DW_AUDT.FINAL_REV_VS_CHGS_FIXEDBID_MILESTONE": "Revenue vs Charges FB Milestone",
-                "DW_AUDT.FINAL_PROJ_IDS_09_10_NOT_IN_REV": "Proj IDs for FP Recurring in Rev"
+                "DW_AUDT.FINAL_CHARGES_REVENUE_SCHEDULE_OP": "Revenue vs Charges",
+                "DW_AUDT.FINAL_PROJ_IDS_CHARGES_REVENUE_NOT_IN_REV": "Proj IDs With No RS"
+            }
+        },
+        {
+            "Audit Name": "LIS - Charges Forecast - Fixed Bid Milestone",
+            "Excel Name without Ext": "Audit - Logic - Fixed Bid Milestone",
+            "Table Sheet Name Mapping": {
+                "DW_AUDT.FINAL_REV_VS_CHGS_FIXEDBID_MILESTONE": "Revenue vs Charges",
+                "DW_AUDT.FINAL_PROJ_IDS_09_10_NOT_IN_REV": "Proj IDs With No RS"
             }
         }
     ],
     "Background Color": "yellow",
     "Credentials": {
-        "user": "SAMICHYASHRESTHA",
-        "password": "LIS@winter22",
-        "account": "thb67716.us-east-1",
-        "warehouse": "LOGICBIPRD",
-        "database": "LOGICBI_PRD",
-        "schema": "DW_AUDT",
-        "role": "SYSADMIN"
+        "user": "",
+        "password": "",
+        "account": "",
+        "warehouse": "",
+        "database": "",
+        "schema": "",
+        "role": ""
     }
 }

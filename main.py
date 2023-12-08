@@ -102,7 +102,7 @@ class MainWindow(QMainWindow):
             self.output_widget.append(f"\n{errors}")
 
     def on_script_finished(self, button):
-        button.setEnabled(True)
+        button.setEnabled(True) 
         self.is_running = False
     
     def save_selected_options(self):
